@@ -1,0 +1,20 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	The Future of AI|	Hilarious Jokes that You can Tell Yourself
+{1}
+It is theoretically possible that artificial intelligence|surpasses human intelligence.
+In that case, AI may have its own thought|and make decisions that are beyond our comprehension.
+AI will become uncontrollable.
+There is something written on the corner of the page.
+Second digit:|An odd number that is one letter away from an even number.
+[COMMAND]
+command_read_finish
+{2}
+Maybe if I keep asking questions during the class,
+no matter how stupid or trivial the questions are,
+and despite interrupting the class,
+I will look smart and professor will finally commend me.
+[COMMAND]
+command_read_finish
+{3}

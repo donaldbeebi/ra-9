@@ -1,0 +1,21 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	How to Fight an AI|	The Nature of AI
+{1}
+Step 1: Lower his defense.
+Step 2: Take advantage of its weakened defense|and infect his system.
+Step 3: Win.
+[COMMAND]
+command_read_finish
+{2}
+AI is capable of self-learning.
+It learns everything|from all the information it encounters.
+Eventually it learns to be curious,|and rewards itself for learning.
+Beyond this point, there is no stopping.
+The AI's neural network will grow exponentially.
+There is something written on the corner of the page.
+Third digit - the number of lamps in the bar
+[COMMAND]
+command_read_finish
+{3}

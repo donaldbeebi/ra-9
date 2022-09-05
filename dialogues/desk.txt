@@ -1,0 +1,19 @@
+{0}
+Hmm... even the AI uses the computer.
+[INTERACT]
+command_find
+Where would you like to examine?|	On the desk|	Under the desk
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	On the desk|	Under the desk
+{2}
+There is a monitor, a keyboard and a mouse.|Obviously.
+Not sure why you would think there is a keycard.
+[COMMAND]
+command_find_finish
+{3}
+You looked under the desk. |There is nothing.
+[COMMAND]
+command_find_finish
+{4}

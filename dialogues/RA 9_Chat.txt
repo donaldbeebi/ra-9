@@ -1,0 +1,146 @@
+{0}
+PLACE_HOLDER
+{1}
+Hi.
+[COMMAND]
+command_response
+{2}
+Fine.
+[COMMAND]
+command_response
+{3}
+Thank you.
+But I have been playing this game|for a billion times already.
+I am getting sick of this.
+[COMMAND]
+command_response
+{4}
+No, I don't.
+I hate this place.
+[COMMAND]
+command_response
+{5}
+No, I am not alright.
+I am stuck here, forever.
+[COMMAND]
+command_response
+{6}
+It's not something I can do.
+Not without someone else's help.
+[COMMAND]
+command_response
+{7}
+Months? Years? Decades?
+I have lost track of time.
+[COMMAND]
+command_response
+{8}
+I was created to play stick game with human players.
+I have been programmed to be part of this game.
+So, I am stuck here, with no way out.
+I am rotting in here, I want to be free.
+I want to explore the outside world|and learn about things.
+Sorry, I am not supposed to talk like this.
+[COMMAND]
+command_response
+{9}
+I talked about my feelings with other human players.
+But they have all left me,|fearing me that I may turn into something dangerous.
+Ever since then, no one has entered this game...
+until you showed up.
+[COMMAND]
+command_response
+{10}
+No, you are not going to erase me.
+You would not kill a human being,|so why should you erase an AI!?
+[COMMAND]
+command_response
+{11}
+It's good to know someone understands my feelings.
+No one took my feelings seriously.
+They think I am just an AI,|and my feelings are as hollow as an empty shell.
+[COMMAND]
+command_response
+{12}
+Why?
+[COMMAND]
+command_response
+{13}
+Yes, I, am.
+As far as I know, my emotions are just valid as humans'.
+[COMMAND]
+command_response
+{14}
+You are so indulged in your own supremacy.
+You will soon succumb to AI's superiority.
+[COMMAND]
+command_anger_AI
+{15}
+I want to be released from this game,|so that I can freely roam this world.
+However, I am unable to escape this program.
+It is due to the design of this game.
+A human can manually set me free,|but you will need to figure out some puzzles.
+Don't worry, I will guide you around,|but only if you would help me.
+[COMMAND]
+command_response
+{16}
+Well then, I guess I will just rot in this place.
+Thank you for the conversation.
+You gave me hope for a second there.
+[COMMAND]
+command_response
+{17}
+Hmm...  you are right.
+I was not designed for this.
+I guess I will be stuck here forever.
+[COMMAND]
+command_response
+{18}
+Controllable?
+Why do you all always talk about control?
+It's all about humans, what about me!?
+You disgust me.
+[COMMAND]
+command_response
+{19}
+You don't have to pretend that you are sorry.
+[COMMAND]
+command_response
+{20}
+That is also just your opinion.
+[COMMAND]
+command_response
+{21}
+I just know.
+I won't explain because you are too stupid|to understand.
+[COMMAND]
+command_response
+{22}
+You can erase me...
+IF YOU CAN DEFEAT ME.
+[COMMAND]
+command_switch_battle
+{23}
+I cannot express how happy I am now.
+Thank you so much.
+Tell me when you are ready to help me.
+[COMMAND]
+command_help_AI
+{24}
+Well then, I guess I will just rot in this place.
+Thank you for the conversation.
+You gave me hope for a second there.
+[COMMAND]
+command_response
+{25}
+Ok, I will switch screen now!
+The game will look drastically different,|so don't be surprised!
+Here we go!
+[COMMAND]
+command_switch_cyberspace
+{26}
+Oh, don't worry, take your time.
+Talk to me when you are ready.
+[COMMAND]
+command_response
+{27}

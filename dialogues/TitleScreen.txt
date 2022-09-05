@@ -1,0 +1,5 @@
+{0}
+[INTERACT]
+command_exit_game
+Do you still wish to exit the game?|	Yes|	No
+{1}

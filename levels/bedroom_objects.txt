@@ -1,0 +1,11 @@
+doorb,door_bedroom_main,5.5,14
+bed,bed,11.5,8
+nightstand1,nightstand1,10,7
+nightstand2,nightstand2,13,7
+closet,closet,8.5,7
+trashcan,trashcan,5,10
+desk,desk,5.5,8.5
+television,television,11.5,12.5
+guitar,guitar,5.5,6.5
+vase,vase,9.5,13
+chair,bedroom_chair,6.8,9

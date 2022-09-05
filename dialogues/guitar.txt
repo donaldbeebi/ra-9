@@ -1,0 +1,18 @@
+{0}
+It's a guitar case.|It's amazing that AIs appreciate music.
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the guitar case|	Behind the guitar case
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the guitar case|	Behind the guitar case
+{2}
+You looked inside the guitar case.|Unsurprisingly, there is a classical guitar.
+[COMMAND]
+command_find_finish
+{3}
+There is a guitar pick on the floor.|He might have lost it.
+[COMMAND]
+command_find_finish
+{4}

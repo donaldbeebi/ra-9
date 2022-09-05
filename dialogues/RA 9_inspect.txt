@@ -1,0 +1,53 @@
+{0}
+0;You will need to turn on all these light bulbs.
+0;Or else, the puzzle is not solved.
+{1}
+0;Hiya, how is it going with the puzzles?
+{2}
+0;Yep, this is the key.
+0;Use this key to unlock the door|in the top right corner of the main lobby.
+0;That leads to my bedroom.
+0;There, you will need to find a keycard.
+0;I will tell you what to do afterwards.
+0;Let's go!
+[COMMAND]
+command_unlock_bedroom
+{3}
+2;I was gonna say something|but you clicked on me too fast.
+{4}
+0;You need to enter the lightbulb room.
+0;Outside this bar is the main lobby.
+0;The lightbulb room is in|the bottom left corner of the main lobby.
+{5}
+6;Then, push, the, button, please.
+{6}
+0;Have you gotten the key from the creepy room?
+{7}
+0;Have you found the keycard from my bedroom?
+{8}
+0;Go to the password room.
+0;It's in the bottom right corner of the main lobby.
+{9}
+0;Have you found all the clues for the password?
+{10}
+0;You need to take the door|at the bottom of the password room.
+{11}
+2;...I told you not to open that drawer.
+2;It's a gift from a previous human player.
+2;I kept it since it keeps me company.
+1;God... that's embarassing.
+{12}
+0;Oh, let me turn on the light for you.
+{13}
+4;Weren't you going to help me?
+[COMMAND]
+command_confirm_exit_game
+{14}
+3;Don't you dare come back.
+[COMMAND]
+command_exit_game
+{15}
+0;Use the key you just found to unlock a door.
+0;The door is in the top right corner|of the main lobby.
+0;You will need to find a keycard there.
+{16}

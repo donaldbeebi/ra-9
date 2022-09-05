@@ -1,0 +1,6 @@
+{0}
+Despite the darkness, you see a key on the ground.
+[INTERACT]
+command_key_pickup
+Pick it up?|	Yes|	No
+{1}

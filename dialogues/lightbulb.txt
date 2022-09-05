@@ -1,0 +1,7 @@
+{0}
+Amazed by the humongous size of the light bulb,|you let out a gasp.
+[COMMAND]
+command_inspect_lightbulb
+{1}
+It's a big light bulb. Obviously.
+{2}

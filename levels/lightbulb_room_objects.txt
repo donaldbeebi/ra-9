@@ -1,0 +1,11 @@
+doorr,door_lightbulb_room_main,23.5,8.5
+doorl,door_lightbulb_room_abandoned_room,1.5,12.5
+lightbulb,lightbulb1,4.5,4;
+lightbulb,lightbulb2,8.5,4;
+lightbulb,lightbulb3,12.5,4;
+lightbulb,lightbulb4,16.5,4;
+lightbulb,lightbulb5,20.5,4;
+lever,lever1,6.5,4;
+lever,lever2,10.5,4;
+lever,lever3,14.5,4;
+lever,lever4,18.5,4;	

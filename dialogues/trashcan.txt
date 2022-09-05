@@ -1,0 +1,20 @@
+{0}
+There is a trash can on the floor.
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the trash can|	Beneath the trash can
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the trash can|	Beneath the trash can
+{2}
+You looked from above the trash can.
+You can only see a bunch of crumbled paper.
+[COMMAND]
+command_find_finish
+{3}
+You picked up the trash can to see beneath it.
+There is nothing.
+[COMMAND]
+command_find_finish
+{4}

@@ -1,0 +1,21 @@
+{0}
+That is a pretty lamp.
+[INTERACT]
+command_find
+Where would you like to examine?|	Upper drawer|	Lower drawer
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Upper drawer|	Lower drawer
+{2}
+You pulled open the upper drawer.
+There is a photo of the AI and some other human players.
+They seemed to be having fun.
+[COMMAND]
+command_find_finish
+{3}
+You pulled open the lower drawer.
+There is a cute little pony plushy.
+[COMMAND]
+command_inspect_pony
+{4}

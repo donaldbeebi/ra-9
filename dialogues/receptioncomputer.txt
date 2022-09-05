@@ -1,0 +1,3 @@
+{0}
+It's a computer, does not seem to have power though.
+{1}

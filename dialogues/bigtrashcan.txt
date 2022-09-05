@@ -1,0 +1,4 @@
+{0}
+You took off the lid.
+The trash inside is emitting a foul smell.
+{1}

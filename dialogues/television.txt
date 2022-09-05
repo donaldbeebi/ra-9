@@ -1,0 +1,20 @@
+{0}
+It's a Samsing 42" OLED television.
+[INTERACT]
+command_find
+Where would you like to examine?|	Behind the television|	Under the table
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Behind the television|	Under the table
+{2}
+You looked behind the television.
+There is nothing interesting.
+[COMMAND]
+command_find_finish
+{3}
+You looked under the table|that the television is sitting on.
+There is a box full of CDs.
+[COMMAND]
+command_find_finish
+{4}

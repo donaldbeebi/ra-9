@@ -1,0 +1,7 @@
+{0}
+You picked up a book from the pile.
+Stick Game Machine Learning|Daily Report|Volume 54
+Neural network for stick game completed
+Victory confidence level: 99.99%
+Part of the page has been torn off.
+{1}

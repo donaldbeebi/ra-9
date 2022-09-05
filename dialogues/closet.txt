@@ -1,0 +1,19 @@
+{0}
+It's the AI's closet. The AI has a poor sense of fashion.
+[INTERACT]
+command_find
+Where would you like to examine?|	Upper shelf|	Lower shelf
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Upper shelf|	Lower shelf
+{2}
+You moved the hung clothes out of the way|but there was nothing interesting.
+[COMMAND]
+command_find_finish
+{3}
+You looked into the lower shelf.
+There are two neatly folded shirts.
+[COMMAND]
+command_find_finish
+{4}

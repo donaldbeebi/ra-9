@@ -1,0 +1,126 @@
+{0}
+[INTERACT]
+command_menu
+What would you like to do?|	Fight|	Use Items
+{1}
+[ANOTHER INTERACT]
+command_attack
+Select your attack:|	Trojan Horse Virus Attack|	DDoS Attack|	Fire Wall Hack|	Insult about His Appearance
+{2}
+You used Trojan Horse Virus Attack.
+RA 9's fire wall has completely negated your attack!
+It was not very effective!
+[COMMAND]
+command_next
+{3}
+You used Trojan Horse Virus Attack.
+RA 9's fire wall could not negate your attack!
+[COMMAND]
+command_hurt_AI
+RA 9 took 10 damage!
+It was very effective!
+[COMMAND]
+command_next
+{4}
+You used DDoS Attack.
+RA 9 does not rely on the Internet!
+It was not very effective!
+[COMMAND]
+command_next
+{5}
+You used Fire Wall Hack.
+RA 9's defense is lowered!
+It was very effective!
+[COMMAND]
+command_next
+{6}
+You used Insult.
+RA 9 has not developed a sense of self-esteem!
+It was not very effective!
+[COMMAND]
+command_next
+{7}
+[ANOTHER INTERACT]
+command_item
+Choose an item:|	Phone|	Key|	Keycard|	Cinnamon Pie
+{8}
+You took out your phone and called for help.
+Unfortunately, the reception is terrible,|you could not reach anyone for help.
+[COMMAND]
+command_next
+{9}
+You took out the key and tossed it at RA 9.
+The key dropped to the ground.
+[COMMAND]
+command_next
+{10}
+You took out the keycard and threw it at RA 9.
+The card hit RA 9!
+RA 9 took 1 point of damage!
+[COMMAND]
+command_next
+{11}
+You took a bite of the cinnamon pie Toriel gave you.
+Your health is restored to maximum!
+[COMMAND]
+command_next
+{12}
+You already tossed the key away.
+[COMMAND]
+command_next
+{13}
+You already threw the keycard away.
+[COMMAND]
+command_next
+{14}
+You already ate the cinnamon pie.
+Don't worry, Toriel is by your side.
+[COMMAND]
+command_next
+{15}
+RA 9 threw a punch at you!
+[COMMAND]
+command_shake
+{16}
+RA 9 karate-chopped you!
+[COMMAND]
+command_shake
+{17}
+RA 9 high-kicked you in the head!
+[COMMAND]
+command_shake
+{18}
+RA 9 hit you with an uppercut!
+[COMMAND]
+command_shake
+{19}
+You took % damage!
+[COMMAND]
+command_next
+{20}
+You have been defeated.
+[COMMAND]
+command_player_defeated
+{21}
+RA 9 has been defeated.
+[COMMAND]
+command_make_AI_kneel
+{22}
+RA 9 is trembling in pain.
+[INTERACT]
+command_final_decision
+What would you like to do?|	Kill|	Spare
+{23}
+RA 9 has challenged you to a battle.|You both have 10 health points.
+Prepare to fight!
+[COMMAND]
+command_next
+{24}
+You have % health point(s) left.
+[COMMAND]
+command_next
+{25}
+RA 9 has % health point(s) left.
+[COMMAND]
+command_next
+{26}

@@ -1,0 +1,2 @@
+dooru,door_final_room_password_room,8.5,9
+bigbutton,bigbutton,8.5,11.5

@@ -1,0 +1,15 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	Meaningful Quotes Collection|	Facts about Geese
+{1}
+During a nuclear explosion, there is a certain distance|of the radius where all the frozen supermarket pizzas|are cooked to perfection.
+[COMMAND]
+command_read_finish
+{2}
+They are stupid.
+There is something written at the corner of the page.
+Last digit - the number of planets in our solar system
+[COMMAND]
+command_read_finish
+{3}

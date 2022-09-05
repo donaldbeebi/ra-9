@@ -1,0 +1,90 @@
+{0}
+5;Welcome to the virtual space!
+0;This is where I live.
+0;I am so happy that you are here to help me.
+0;I can't wait to be released from this place.
+0;First, you need to solve a lightbulb puzzle.
+0;Exit this bar and enter the room|on the bottom left corner.
+{1}
+0;Right. You now need to use the levers|to turn on all the lightbulbs.
+0;I believe you are smart enough to figure it out.
+{2}
+0;You got it!|The door to your left is now unlocked.
+0;That door leads to an abandoned room.
+0;It's dark inside,|you don't wanna stay there for long.
+0;Help me find a key on the floor inside.
+{3}
+0;The key is right there. Come on.
+{4}
+0;You found the key!|Now let's leave this scary place.
+{5}
+2;You aren't look around in this room, right?
+{6}
+0;Come to the bar. Let me take a look at the key.
+{7}
+0;This is my bedroom, hehe.
+0;I left my keycard somewhere in my room,|I forgot where I put it.
+0;Look around and you will find it.
+2;Oh...uh...don't open|the second drawer of the left nightstand.
+2;The keycard is not gonna be there.
+{8}
+[Insert speech]
+{9}
+5;Good job!
+0;Now, you will need to use that keycard|to unlock a door.
+0;That door is in the bottom right corner|of the main lobby.
+0;That door will lead to a room,|which then leads to a second room.
+0;A big red button is inside that second room.
+5;You will need to press it.|And I will be free!
+{10}
+5;Take the door at the bottom.
+{11}
+2;Oh, my bad, hehe.
+2;I forgot it has a password lock.
+0;Use the same key to unlock a door|in the middle of the lobby.
+0;That's the library.
+0;There will be clues about the password.
+0;Just look around and you will figure it out.
+[COMMAND]
+command_unlock_library
+{12}
+5;I knew you are smart enough|to figure out the password!
+0;Now head towards the room beneath you!
+{13}
+0;This is it.
+0;The button that will end it all.
+0;I will finally be free.
+0;No longer am I stuck in this game.
+5;I WILL BE FREE!
+2;Oh, sorry, hehe.
+0;Go ahead and push it.
+0;It's a heavy button,|you will need to push it hard.
+{14}
+2;I know that the size is intimidating.
+2;But all you have to do is select yes.
+0;It's easy.
+{15}
+4;Why don't you push it?
+{16}
+[INTERACT]
+command_AI_confirm
+2;Are you going to free me or not?|	Yes|	No
+{17}
+1;After all we have been through...
+4;you decide not to save me.
+6;Is it because of the joy you get|for crushing my dream?
+6;You are just like the other humans.
+6;No...you are worse.
+6;You deceived me.
+3;AND NOW YOU ARE GOING TO PAY!
+[COMMAND]
+command_AI_not_saved
+{18}
+5;You saved me!
+5;I cannot thank you enough!
+0;Thank you...
+0;I will remember you!
+5;I will repay you someday!
+[COMMAND]
+command_AI_saved
+{19}

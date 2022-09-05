@@ -1,0 +1,8 @@
+{0}
+You picked up a book from the pile.
+Stick Game Machine Learning|Daily Report|Volume 65
+Error shutting the learning algorithm
+Neural network information feed type: UNKNOWN
+Attempting to re...
+Part of the page is torn off.
+{1}

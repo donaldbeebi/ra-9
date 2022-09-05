@@ -1,0 +1,22 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	Hairy Potter: The Ending|	Life of Pie
+{1}
+As Voldemort's elder wand was failing,|Hairy, with all his might,|managed to push his beam towards Voldemort. 
+Voldemort recoiled back.|His hands slow blackened,|as he disintegrated into dust.
+"I don't feel so good." shrieked Voldemort.
+Then... Hairy woke up in his staircase cupboard.|THE END
+[COMMAND]
+command_read_finish
+{2}
+There was one time|when a ship carrying animals sank.
+And a kid named pie who was on the ship|got on a life boat.
+He saw a lion swimming towards the boat.
+Kind as he is, he helped the lion board the boat.
+After a few hours afloat on the sea,|the lion felt hungry.
+And so it ate Pie.
+Moral of the story:|Predatory animals don't make good friends.
+[COMMAND]
+command_read_finish
+{3}

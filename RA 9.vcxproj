@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6d5f6b5e-659c-4dbf-bb1f-b01db4d78242}</ProjectGuid>
+    <RootNamespace>RA9</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-audio.lib;sfml-graphics.lib;sfml-network.lib;sfml-system.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIState.cpp" />
+    <ClCompile Include="AnimatedGraphicsComponent.cpp" />
+    <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="BarStool.cpp" />
+    <ClCompile Include="BattleCommander.cpp" />
+    <ClCompile Include="Battleground.cpp" />
+    <ClCompile Include="BattleInputHandler.cpp" />
+    <ClCompile Include="BattlePanel.cpp" />
+    <ClCompile Include="BattlePanelManager.cpp" />
+    <ClCompile Include="BattleScreen.cpp" />
+    <ClCompile Include="Bed.cpp" />
+    <ClCompile Include="BeverageShelf.cpp" />
+    <ClCompile Include="BigButton.cpp" />
+    <ClCompile Include="BookPile.cpp" />
+    <ClCompile Include="Bookshelf.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Chair.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CharacterDialogueComponent.cpp" />
+    <ClCompile Include="CharacterGraphicsComponent.cpp" />
+    <ClCompile Include="Closet.cpp" />
+    <ClCompile Include="ColliderComponent.cpp" />
+    <ClCompile Include="CollisionHandler.cpp" />
+    <ClCompile Include="Commander_actPanel.cpp" />
+    <ClCompile Include="Cushion.cpp" />
+    <ClCompile Include="Desk.cpp" />
+    <ClCompile Include="DialogueComponent.cpp" />
+    <ClCompile Include="DialogueManager.cpp" />
+    <ClCompile Include="DialoguePanel.cpp" />
+    <ClCompile Include="DiningTable.cpp" />
+    <ClCompile Include="FallenShelf.cpp" />
+    <ClCompile Include="GameCommander.cpp" />
+    <ClCompile Include="Commander_actGameState.cpp" />
+    <ClCompile Include="Commander_actObject.cpp" />
+    <ClCompile Include="Commander_updateGameState.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="DoorB.cpp" />
+    <ClCompile Include="DoorU.cpp" />
+    <ClCompile Include="DoorL.cpp" />
+    <ClCompile Include="DoorR.cpp" />
+    <ClCompile Include="DialogueBox.cpp" />
+    <ClCompile Include="Fader.cpp" />
+    <ClCompile Include="GameInputHandler.cpp" />
+    <ClCompile Include="GameMaster.cpp" />
+    <ClCompile Include="Guitar.cpp" />
+    <ClCompile Include="Judge.cpp" />
+    <ClCompile Include="JukeBox.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="KeyPuzzle.cpp" />
+    <ClCompile Include="LobbyTable.cpp" />
+    <ClCompile Include="Nightstand.cpp" />
+    <ClCompile Include="NumberButton.cpp" />
+    <ClCompile Include="NumberPuzzle.cpp" />
+    <ClCompile Include="Portrait.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="ReceptionDesk.cpp" />
+    <ClCompile Include="ReceptionObject.cpp" />
+    <ClCompile Include="ScreenShaker.cpp" />
+    <ClCompile Include="Shaker.cpp" />
+    <ClCompile Include="SingleBook.cpp" />
+    <ClCompile Include="SoundComponent.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StickGame.cpp" />
+    <ClCompile Include="GamePanelManager.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="InteractComponent.cpp" />
+    <ClCompile Include="InteractionManager.cpp" />
+    <ClCompile Include="InteractiveObject.cpp" />
+    <ClCompile Include="Lamp.cpp" />
+    <ClCompile Include="Lever.cpp" />
+    <ClCompile Include="LightBulb.cpp" />
+    <ClCompile Include="LightPuzzle.cpp" />
+    <ClCompile Include="LoopedAnimationComponent.cpp" />
+    <ClCompile Include="OptionPanel.cpp" />
+    <ClCompile Include="PanelManager.cpp" />
+    <ClCompile Include="PingpongAnimationComponent.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GraphicsComponent.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="Puzzle.cpp" />
+    <ClCompile Include="RA 9.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="ScreenRemote.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="ObjectLoader.cpp" />
+    <ClCompile Include="BarTable.cpp" />
+    <ClCompile Include="Commander_actAI.cpp" />
+    <ClCompile Include="StandardObject.cpp" />
+    <ClCompile Include="StaticGraphicsComponent.cpp" />
+    <ClCompile Include="Stick.cpp" />
+    <ClCompile Include="StickGameCommander.cpp" />
+    <ClCompile Include="StickGameDialogueComponent.cpp" />
+    <ClCompile Include="StickGameInputHandler.cpp" />
+    <ClCompile Include="StickGamePanel.cpp" />
+    <ClCompile Include="StickGamePanelManager.cpp" />
+    <ClCompile Include="StickGameScreen.cpp" />
+    <ClCompile Include="StoreFront.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="Television.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="TitleCommander.cpp" />
+    <ClCompile Include="TitleInputHandler.cpp" />
+    <ClCompile Include="TitlePanel.cpp" />
+    <ClCompile Include="TitlePanelManager.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Torch.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="LayerManager.cpp" />
+    <ClCompile Include="Trash.cpp" />
+    <ClCompile Include="TrashCan.cpp" />
+    <ClCompile Include="TremblingComponent.cpp" />
+    <ClCompile Include="TriggerComponent.cpp" />
+    <ClCompile Include="Vase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIState.h" />
+    <ClInclude Include="AnimatedGraphicsComponent.h" />
+    <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="barfront.h" />
+    <ClInclude Include="BarStool.h" />
+    <ClInclude Include="BarTable.h" />
+    <ClInclude Include="BattleCommander.h" />
+    <ClInclude Include="Battleground.h" />
+    <ClInclude Include="BattleInputHandler.h" />
+    <ClInclude Include="BattlePanel.h" />
+    <ClInclude Include="BattlePanelManager.h" />
+    <ClInclude Include="BattleScreen.h" />
+    <ClInclude Include="Bed.h" />
+    <ClInclude Include="BeverageShelf.h" />
+    <ClInclude Include="BigButton.h" />
+    <ClInclude Include="BookPile.h" />
+    <ClInclude Include="Bookshelf.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CActivity.h" />
+    <ClInclude Include="Chair.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="CharacterDialogueComponent.h" />
+    <ClInclude Include="CharacterGraphicsComponent.h" />
+    <ClInclude Include="Closet.h" />
+    <ClInclude Include="ColliderComponent.h" />
+    <ClInclude Include="CollisionHandler.h" />
+    <ClInclude Include="Commander.h" />
+    <ClInclude Include="Cushion.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="Debugger.h" />
+    <ClInclude Include="Desk.h" />
+    <ClInclude Include="DialogueComponent.h" />
+    <ClInclude Include="DialogueManager.h" />
+    <ClInclude Include="DialoguePanel.h" />
+    <ClInclude Include="DiningTable.h" />
+    <ClInclude Include="Activity.h" />
+    <ClInclude Include="FallenShelf.h" />
+    <ClInclude Include="GameMaster.h" />
+    <ClInclude Include="GameStartTrigger.h" />
+    <ClInclude Include="Guitar.h" />
+    <ClInclude Include="ImmediateTrigger.h" />
+    <ClInclude Include="Judge.h" />
+    <ClInclude Include="JukeBox.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="KeyPuzzle.h" />
+    <ClInclude Include="LobbyTable.h" />
+    <ClInclude Include="LocationTrigger.h" />
+    <ClInclude Include="Nightstand.h" />
+    <ClInclude Include="NoPanelTrigger.h" />
+    <ClInclude Include="NumberButton.h" />
+    <ClInclude Include="NumberPuzzle.h" />
+    <ClInclude Include="Portrait.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="ReceptionDesk.h" />
+    <ClInclude Include="ReceptionObject.h" />
+    <ClInclude Include="SaveAISequence.h" />
+    <ClInclude Include="ScreenShaker.h" />
+    <ClInclude Include="Shaker.h" />
+    <ClInclude Include="SingleBook.h" />
+    <ClInclude Include="SoundComponent.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StickGame.h" />
+    <ClInclude Include="GamePanelManager.h" />
+    <ClInclude Include="Lamp.h" />
+    <ClInclude Include="LightBulb.h" />
+    <ClInclude Include="OptionPanel.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="GameStateTrigger.h" />
+    <ClInclude Include="ScreenRemote.h" />
+    <ClInclude Include="Stick.h" />
+    <ClInclude Include="StickGameCommander.h" />
+    <ClInclude Include="StickGameDialogueComponent.h" />
+    <ClInclude Include="StickGameInputHandler.h" />
+    <ClInclude Include="StickGamePanel.h" />
+    <ClInclude Include="StickGamePanelManager.h" />
+    <ClInclude Include="StickGameScreen.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="DoorB.h" />
+    <ClInclude Include="DoorU.h" />
+    <ClInclude Include="DoorL.h" />
+    <ClInclude Include="DoorR.h" />
+    <ClInclude Include="DialogueBox.h" />
+    <ClInclude Include="Fader.h" />
+    <ClInclude Include="GameInputHandler.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="InteractComponent.h" />
+    <ClInclude Include="InteractionManager.h" />
+    <ClInclude Include="InteractiveObject.h" />
+    <ClInclude Include="LightPuzzle.h" />
+    <ClInclude Include="LoopedAnimationComponent.h" />
+    <ClInclude Include="ObjectHeaders.h" />
+    <ClInclude Include="ObjectLoader.h" />
+    <ClInclude Include="PanelManager.h" />
+    <ClInclude Include="PingpongAnimationComponent.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="DevelopState.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GraphicsComponent.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="Puzzle.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="Lever.h" />
+    <ClInclude Include="StandardObject.h" />
+    <ClInclude Include="StaticGraphicsComponent.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="Television.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="TimeTrigger.h" />
+    <ClInclude Include="TitleCommander.h" />
+    <ClInclude Include="TitleInputHandler.h" />
+    <ClInclude Include="TitlePanel.h" />
+    <ClInclude Include="TitlePanelManager.h" />
+    <ClInclude Include="TitleScreen.h" />
+    <ClInclude Include="Torch.h" />
+    <ClInclude Include="TransformComponent.h" />
+    <ClInclude Include="Trash.h" />
+    <ClInclude Include="TrashCan.h" />
+    <ClInclude Include="TremblingComponent.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="TriggerComponent.h" />
+    <ClInclude Include="GameCommander.h" />
+    <ClInclude Include="LayerManager.h" />
+    <ClInclude Include="Vase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

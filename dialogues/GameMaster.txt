@@ -1,0 +1,73 @@
+{0}
+[ANOTHER INTERACT]
+command_menu
+What would you like to do?|	Play|	Chat|	Other|	Exit
+{1}
+[ANOTHER INTERACT]
+command_stick
+How many stick(s) would you like to remove?|	1|	2|	3|	4
+{2}
+There are % stick(s) remaining.
+[COMMAND]
+command_next
+{3}
+There aren't enough sticks to remove!
+[COMMAND]
+command_next
+{4}
+RA 9 removed % stick(s).
+[COMMAND]
+command_next
+{5}
+You have won the game!
+[COMMAND]
+command_next
+{6}
+RA 9 has won the game!
+[COMMAND]
+command_next
+{7}
+[INTERACT]
+command_continue
+Would you like to play again?|	Yes|	No
+{8}
+[INTERACT]
+command_other
+What would you like to do?|	Toggle the Light|	Toggle Music
+{9}
+You must wait for a response before talking again.
+[COMMAND]
+command_next
+{10}
+The light has been turned off.
+Unable to see, you grabbed a random number of sticks.
+You removed % stick(s).
+[COMMAND]
+command_next
+{11}
+There was no one to pick up sticks.
+[COMMAND]
+command_next
+{12}
+RA 9 is not responding.
+[COMMAND]
+command_next
+{13}
+You have lost the game.
+But you did the right thing.
+[COMMAND]
+command_next
+{14}
+You have lost the game.
+And you deserve it, you monster.
+[COMMAND]
+command_next
+{15}
+There was no one to respond to you.
+[COMMAND]
+command_next
+{16}
+RA 9 does not want to talk to you.
+[COMMAND]
+command_next
+{17}

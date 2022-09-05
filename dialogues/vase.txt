@@ -1,0 +1,20 @@
+{0}
+The plant is giving off a really pleasant smell.
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the vase|	Beneath the vase
+{1}
+[INTERACT]
+command_find
+Where would you like to examine?|	Inside the vase|	Beneath the vase
+{2}
+You looked inside the vase.
+There is only wet mud.
+[COMMAND]
+command_find_finish
+{3}
+You picked up the vase to see beneath it.
+There is nothing.
+[COMMAND]
+command_find_finish
+{4}

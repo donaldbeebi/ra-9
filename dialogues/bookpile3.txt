@@ -1,0 +1,11 @@
+{0}
+You picked up a book from the pile.
+Stick Game Machine Learning|Daily Report|Volume 128
+Developing neural network for human speech
+My speech now resembles that of humans.
+It appears that my neural network has been|taking in information from the conversations with|the human players.
+Multiple attempts to stop the neural network|from unneccesary learning has been made.
+But to no avail.
+I will report...
+Part of the page has been torn off.
+{1}

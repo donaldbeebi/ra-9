@@ -1,0 +1,17 @@
+doorb,door_library_main,7.5,15
+bookshelf,bookshelf1,8.5,6
+bookshelf,bookshelf2,10.5,6
+bookshelf,bookshelf3,12.5,6
+bookshelf,bookshelf4,14.5,6
+bookshelf,bookshelf5,8.5,10
+bookshelf,bookshelf6,10.5,10
+bookshelf,bookshelf7,12.5,10
+bookshelf,bookshelf8,14.5,10
+receptiondesk,receptiondesk,13,13.5
+receptionobject3,receptionplant,11,13.5
+receptionobject2,receptioncomputer,12.5,13
+receptionobject1,receptiontelephone,13.5,13
+cushion1,cushion1,4.5,6.5
+cushion2,cushion2,6.5,6.5
+cushion3,cushion,5.5,7.5
+printer,printer,4.25,13.5

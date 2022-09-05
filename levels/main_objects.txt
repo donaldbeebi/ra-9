@@ -1,0 +1,13 @@
+dooru,door_main_bar,8.5,5
+dooru,door_main_library,21.5,7
+dooru,door_main_bedroom,28.5,7
+doorl,door_main_lightbulb_room,1.5,14.5
+doorr,door_main_password_room,33.5,14.5
+lobbytable4,lobbytable1,7.5,13.5
+lobbytable5,lobbytable2,12.5,13.5
+lobbytable3,lobbytable3,17.5,13.5
+lobbytable1,lobbytable4,22.5,13.5
+lobbytable2,lobbytable5,27.5,13.5
+barfront,barfront,8.5,5
+torch,torch1,14.5,5
+torch,torch2,2.5,5

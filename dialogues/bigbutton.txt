@@ -1,0 +1,7 @@
+{0}
+This button is nearly as big as your head.
+Pushing it would prove difficult.
+[INTERACT]
+command_big_button
+Press it?|	Yes|	No
+{1}

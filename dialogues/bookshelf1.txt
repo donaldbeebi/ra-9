@@ -1,0 +1,16 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	The Paradox of Artificial Intelligence|	21-Stick Game 101
+{1}
+Artificial intelligence is based on AI learning.|Its intelligence grows on its own exponentially,|until no one can stop artificial intelligence.
+Not even humans.
+[COMMAND]
+command_read_finish
+{2}
+Tip 1, never go first.
+There is something written at the corner of the page.
+First Digit - 1, 1, 2, 3, 5, ?
+[COMMAND]
+command_read_finish
+{3}

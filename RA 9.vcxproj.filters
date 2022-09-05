@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{14b53eab-d5dd-40b9-8293-73847f883ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{208d9295-79ae-4c6b-94ae-0a5d4074a066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen">
+      <UniqueIdentifier>{6b5cd370-2a5b-4ae1-a5bc-8bc0ba031b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Elements">
+      <UniqueIdentifier>{00cbc6c8-b6fa-4d13-90fa-d12faa548eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen">
+      <UniqueIdentifier>{c4986493-5f59-4ec5-a3c9-2e6d2cf9364e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Elements">
+      <UniqueIdentifier>{0142b6c9-3ed4-41b5-ad1a-fd0e72a2b055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens">
+      <UniqueIdentifier>{5fdb030d-471a-4713-a073-4b9fdd61a442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Cyberspace">
+      <UniqueIdentifier>{2bc7aa8f-6d7c-470a-8cff-892fa9875e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\TitleScreen">
+      <UniqueIdentifier>{5ce0271a-1913-4bfb-ae5d-be351dc751a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens">
+      <UniqueIdentifier>{62d09426-aa5b-4bb7-a561-8629ffd8be8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Title Screen">
+      <UniqueIdentifier>{7429d261-444c-4577-ae13-14c22a3cbbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Cyberspace">
+      <UniqueIdentifier>{2e99cef3-5fb1-4a17-b428-0022e23f2c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{191271a0-aab7-4a53-a750-f703bd0c538b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects">
+      <UniqueIdentifier>{fc51d0ea-b89b-48e8-8c62-1b4a9961d7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Components">
+      <UniqueIdentifier>{828d9b0c-378d-4335-9e26-fbd3b7a4acf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{c64bb1e9-7efc-4105-939e-650127cddcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Components">
+      <UniqueIdentifier>{0c7ad6d0-59ea-46fc-b7a6-25b2fbb43e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects">
+      <UniqueIdentifier>{7b16b727-3afa-4ed8-a4b9-c703965b49f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Interactive Objects">
+      <UniqueIdentifier>{5ac1cf19-797a-46ed-b383-62c3b7d4b1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Characters">
+      <UniqueIdentifier>{618d3e83-8669-4a53-8dd0-16feb1ea5882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Characters">
+      <UniqueIdentifier>{664a30e4-ba49-4832-baf6-3c6de3edb4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Interactive Objects">
+      <UniqueIdentifier>{dd30a6de-88bd-4d7e-8330-9aa8c36a24d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Map Objects">
+      <UniqueIdentifier>{2c541453-188a-4613-a86c-3e01a133c988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Components\Graphics Components">
+      <UniqueIdentifier>{629e1cfc-da51-4dd4-b5c9-5ece275fd256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Managers">
+      <UniqueIdentifier>{c30df39c-3cff-4e06-b605-1473eac0a77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Managers">
+      <UniqueIdentifier>{18f91e94-b148-4405-afb9-f3c2097d0170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Components\Animation Components">
+      <UniqueIdentifier>{6537814b-8a97-4166-974a-22db450501e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Components\Graphics Components">
+      <UniqueIdentifier>{48ad3c9e-8f84-46af-a7c5-cb499194b142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Components\Animation Components">
+      <UniqueIdentifier>{3fd40aa0-a0bb-40ac-9738-e7ad010dcbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Map Objects">
+      <UniqueIdentifier>{231a9bf5-0f40-4c03-bad8-ed1e2617b900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Cyberspace\Puzzle">
+      <UniqueIdentifier>{31d1f555-f594-4048-bb89-ab8ab597b070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Cyberspace\Puzzle">
+      <UniqueIdentifier>{5fe418ca-061f-4750-8f8e-1406074b652d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Map Objects\Door">
+      <UniqueIdentifier>{cbe93bed-9003-49c6-8482-f88a65790aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Map Objects\Furniture">
+      <UniqueIdentifier>{367dd264-1ce0-415e-b24d-e07598ee3860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Abstract">
+      <UniqueIdentifier>{07e16361-a554-40fe-9553-85e653cd1459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Map Objects\Furniture">
+      <UniqueIdentifier>{d547587d-9523-48a0-9f7b-b651647014b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Abstract">
+      <UniqueIdentifier>{771229d8-b807-4c5c-92d0-48d7cfb3b37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Map Objects\Door">
+      <UniqueIdentifier>{68e72db8-7569-43b7-b8bf-9f49da489cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Map Objects\Furniture\Bar">
+      <UniqueIdentifier>{2d4d890f-3f8b-4fca-9872-d7f36a218429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Map Objects\Furniture\Bar">
+      <UniqueIdentifier>{ce9ca0f5-2873-423b-be6c-20006186a4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Cyberspace\Panels">
+      <UniqueIdentifier>{057332d8-66ab-415f-a91b-b2b08517b9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\TitleScreen\Panels">
+      <UniqueIdentifier>{da7fad1c-5a1e-4dca-9bf7-22372f30572c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Cyberspace\Panels">
+      <UniqueIdentifier>{e14bf499-cb22-4219-a2c8-01502037364d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Title Screen\Panels">
+      <UniqueIdentifier>{701ebdfd-78c2-40ff-a818-c587b246cc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Cyberspace\Commander">
+      <UniqueIdentifier>{98030a65-9698-40b7-bade-c80850463876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Components\Dialogue Components">
+      <UniqueIdentifier>{c3b34545-c1a2-40aa-92e8-4da6dae957ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Activity and Trigger">
+      <UniqueIdentifier>{d9c88d82-d3e1-43a8-a051-9f2d96aa67d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\StickGame">
+      <UniqueIdentifier>{21e324d3-9746-40dc-9646-03ecdd0a7d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\StickGame">
+      <UniqueIdentifier>{c25a2132-1345-42e3-84c0-b6cf15c75a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\StickGame\Panels">
+      <UniqueIdentifier>{25608e50-8071-4b42-8d33-78e100592450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\StickGame\Panels">
+      <UniqueIdentifier>{0a21fa57-531d-4cbd-ad5d-352e3f2dfcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Objects\Bar">
+      <UniqueIdentifier>{4f35b530-6c42-45b0-b042-bf317e4f0eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Objects\Bar">
+      <UniqueIdentifier>{93825175-bc06-46fa-9afe-47bd451694be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Components\DialogueComponent">
+      <UniqueIdentifier>{55edfe53-a603-49bf-b03c-0fa5e03ae0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Battle">
+      <UniqueIdentifier>{97a51471-958d-422f-bd59-05fca9d5c043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Battle">
+      <UniqueIdentifier>{ddab8727-9036-41c7-b1b2-c9994f918cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen\Screens\Battle\Panels">
+      <UniqueIdentifier>{b00db369-237c-4944-8986-5fbab31806e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Screens\Battle\Panels">
+      <UniqueIdentifier>{7372e099-ca58-4864-a559-9b354695da2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopState.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Header Files\Screen\Screens\Title Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleInputHandler.h">
+      <Filter>Header Files\Screen\Screens\Title Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInputHandler.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Lever.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Object\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHeaders.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterGraphicsComponent.h">
+      <Filter>Header Files\Object\Components\Graphics Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Header Files\Object\Components\Graphics Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGraphicsComponent.h">
+      <Filter>Header Files\Object\Components\Graphics Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGraphicsComponent.h">
+      <Filter>Header Files\Object\Components\Graphics Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Header Files\Object\Components\Animation Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopedAnimationComponent.h">
+      <Filter>Header Files\Object\Components\Animation Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PingpongAnimationComponent.h">
+      <Filter>Header Files\Object\Components\Animation Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Fader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLoader.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPuzzle.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorB.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorR.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorL.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardObject.h">
+      <Filter>Header Files\Object\Objects\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveObject.h">
+      <Filter>Header Files\Object\Objects\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Object\Objects\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Object\Objects\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorU.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Chair.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Bookshelf.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Commander.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommander.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleCommander.h">
+      <Filter>Header Files\Screen\Screens\Title Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueBox.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="BarTable.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="BeverageShelf.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="DiningTable.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="BarStool.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DialoguePanel.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePanelManager.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePanel.h">
+      <Filter>Header Files\Screen\Screens\Title Screen\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionPanel.h">
+      <Filter>Header Files\Screen\Screens\Title Screen\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenRemote.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePanelManager.h">
+      <Filter>Header Files\Screen\Screens\Title Screen\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBulb.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files\Object\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueComponent.h">
+      <Filter>Header Files\Object\Components\Dialogue Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDialogueComponent.h">
+      <Filter>Header Files\Object\Components\Dialogue Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState.h">
+      <Filter>Header Files\Object\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGameScreen.h">
+      <Filter>Header Files\Screen\Screens\StickGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGameCommander.h">
+      <Filter>Header Files\Screen\Screens\StickGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGamePanelManager.h">
+      <Filter>Header Files\Screen\Screens\StickGame\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGamePanel.h">
+      <Filter>Header Files\Screen\Screens\StickGame\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="Stick.h">
+      <Filter>Header Files\Object\Objects\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGameInputHandler.h">
+      <Filter>Header Files\Screen\Screens\StickGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGame.h">
+      <Filter>Header Files\Screen\Screens\StickGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaster.h">
+      <Filter>Header Files\Screen\Screens\StickGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGameDialogueComponent.h">
+      <Filter>Header Files\Object\Components\Dialogue Components</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberButton.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BigButton.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberPuzzle.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="Desk.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Closet.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Nightstand.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Bed.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Vase.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Guitar.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Television.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="TrashCan.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPuzzle.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceptionDesk.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceptionObject.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Cushion.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyTable.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Header Files\Object\Objects\Interactive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="CActivity.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="NoPanelTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleBook.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BookPile.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FallenShelf.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmediateTrigger.h">
+      <Filter>Header Files\Engine\Activity and Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScreen.h">
+      <Filter>Header Files\Screen\Screens\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleCommander.h">
+      <Filter>Header Files\Screen\Screens\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePanelManager.h">
+      <Filter>Header Files\Screen\Screens\Battle\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePanel.h">
+      <Filter>Header Files\Screen\Screens\Battle\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleInputHandler.h">
+      <Filter>Header Files\Screen\Screens\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleground.h">
+      <Filter>Header Files\Screen\Screens\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Judge.h">
+      <Filter>Header Files\Screen\Screens\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Portrait.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="TremblingComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Trash.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="JukeBox.h">
+      <Filter>Header Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundComponent.h">
+      <Filter>Header Files\Object\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaker.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="barfront.h">
+      <Filter>Header Files\Object\Objects\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveAISequence.h">
+      <Filter>Header Files\Screen\Screens\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenShaker.h">
+      <Filter>Header Files\Screen\Elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RA 9.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleInputHandler.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInputHandler.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Object\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Lever.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterGraphicsComponent.cpp">
+      <Filter>Source Files\Object\Components\Graphics Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Source Files\Object\Components\Graphics Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGraphicsComponent.cpp">
+      <Filter>Source Files\Object\Components\Graphics Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGraphicsComponent.cpp">
+      <Filter>Source Files\Object\Components\Graphics Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Source Files\Object\Components\Animation Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopedAnimationComponent.cpp">
+      <Filter>Source Files\Object\Components\Animation Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PingpongAnimationComponent.cpp">
+      <Filter>Source Files\Object\Components\Animation Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Fader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLoader.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPuzzle.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardObject.cpp">
+      <Filter>Source Files\Object\Objects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Object\Objects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Object\Objects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveObject.cpp">
+      <Filter>Source Files\Object\Objects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorB.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorL.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorR.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorU.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Chair.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Bookshelf.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleCommander.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueBox.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="BeverageShelf.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="BarTable.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="DiningTable.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="BarStool.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DialoguePanel.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePanelManager.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePanel.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionPanel.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenRemote.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePanelManager.cpp">
+      <Filter>Source Files\Screen\Screens\TitleScreen\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBulb.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommander.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander_actGameState.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander_actObject.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander_actPanel.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander_updateGameState.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files\Object\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueComponent.cpp">
+      <Filter>Source Files\Object\Components\DialogueComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDialogueComponent.cpp">
+      <Filter>Source Files\Object\Components\DialogueComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState.cpp">
+      <Filter>Source Files\Object\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander_actAI.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGameScreen.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGameCommander.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGamePanelManager.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGamePanel.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="Stick.cpp">
+      <Filter>Source Files\Object\Objects\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGameInputHandler.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGame.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>Source Files\Screen\Screens\StickGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StickGameDialogueComponent.cpp">
+      <Filter>Source Files\Object\Components\DialogueComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberButton.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BigButton.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberPuzzle.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="Desk.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Closet.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Bed.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightstand.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Vase.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Guitar.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Television.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="TrashCan.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPuzzle.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceptionDesk.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceptionObject.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Cushion.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyTable.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Source Files\Object\Objects\Interactive Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleBook.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BookPile.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FallenShelf.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScreen.cpp">
+      <Filter>Source Files\Screen\Screens\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleCommander.cpp">
+      <Filter>Source Files\Screen\Screens\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePanelManager.cpp">
+      <Filter>Source Files\Screen\Screens\Battle\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePanel.cpp">
+      <Filter>Source Files\Screen\Screens\Battle\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleInputHandler.cpp">
+      <Filter>Source Files\Screen\Screens\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleground.cpp">
+      <Filter>Source Files\Screen\Screens\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Judge.cpp">
+      <Filter>Source Files\Screen\Screens\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Portrait.cpp">
+      <Filter>Source Files\Screen\Screens\Cyberspace\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="TremblingComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Trash.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="JukeBox.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects\Furniture\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundComponent.cpp">
+      <Filter>Source Files\Object\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaker.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreFront.cpp">
+      <Filter>Source Files\Object\Objects\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenShaker.cpp">
+      <Filter>Source Files\Screen\Elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

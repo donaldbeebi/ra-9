@@ -1,0 +1,4 @@
+{0}
+It's a trash bag.
+You would not want to open it.
+{1}

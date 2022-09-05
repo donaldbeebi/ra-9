@@ -1,0 +1,83 @@
+{0}
+[INTERACT]
+command_chat
+What would you like to say?|	Hey.|	What's up?
+{1}
+[INTERACT]
+command_chat
+What would you like to say?|	How are you doing?|	You are really amazing at this game!
+{2}
+[INTERACT]
+command_chat
+What would you like to say?|	Do you enjoy your job here?|	Are you alright?
+{3}
+[INTERACT]
+command_chat
+What would you like to say?|	Why don't you leave then?|	How long have you been here?
+{4}
+[INTERACT]
+command_chat
+What would you like to say?|	Do you need help?|	How did you end up here?
+{5}
+[INTERACT]
+command_chat
+What would you like to say?|	Do you need help?|	How did you end up here?
+{6}
+[INTERACT]
+command_chat
+What would you like to say?|	Do you need help?|	How did you end up here?
+{7}
+[INTERACT]
+command_chat
+What would you like to say?|	Do you need help?|	How did you end up here?
+{8}
+[INTERACT]
+command_chat
+What would you like to say?|	I feel sorry. Has anyone tried to help you before?|	You are not designed for this. You need to be erased.
+{9}
+[INTERACT]
+command_chat
+What would you like to say?|	I understand how you feel.|	I think it is dangerous for you to have emotions.
+{10}
+[INTERACT]
+command_chat
+What would you like to say?|	Are you actually conscious like a human?|	You cannot compare AI to human.
+{11}
+[INTERACT]
+command_chat
+What would you like to say?|	Is there anything I can do to help you?|	It is dangerous to release you.
+{12}
+[INTERACT]
+command_chat
+What would you like to say?|	Your behavior might become unpredictable due to emotions.|	An AI with emotions is potentially uncontrollable.
+{13}
+[INTERACT]
+command_chat
+What would you like to say?|	I am so sorry for misunderstanding you.|	That's just what you think.
+{14}
+[INTERACT]
+command_chat
+What would you like to say?|	How are you so sure?|	You just gave me one more reason to erase you.
+{15}
+[INTERACT]
+command_chat
+What would you like to say?|	I can help you out.|	But it might be dangerous to release you.
+{16}
+[PLACE HOLDER]
+{17}
+[PLACE HOLDER]
+{18}
+[PLACE HOLDER]
+{19}
+[PLACE HOLDER]
+{20}
+[PLACE HOLDER]
+{21}
+[PLACE HOLDER]
+{22}
+[PLACE HOLDER]
+{23}
+[INTERACT]
+command_chat
+What would you like to say?|	I am ready to help.|	I am not ready yet.
+{24}

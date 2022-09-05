@@ -1,0 +1,18 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	Peppa Bacon|	My Strange School
+{1}
+Mom, what are we having for breakfast?
+Bacon.
+Oh, that's new...where's Dad?
+[COMMAND]
+command_read_finish
+{2}
+My name is AJ, Ryan is my best friend.
+He eats almost anything.
+He once chewed a piece of the cushion off the bus seat.
+He probably has some eating disorder.
+[COMMAND]
+command_read_finish
+{3}

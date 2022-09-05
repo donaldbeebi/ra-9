@@ -1,0 +1,17 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	Island of Dogs|	A Dream within a Dream within a Dream within a Dream within a Dream within a Dream within a Dream within a Dream
+{1}
+"BARK BARK"
+"BARK BARK BARK"
+"BARK"
+*sneeze*
+[COMMAND]
+command_read_finish
+{2}
+"We need to go deeper."
+BWWWAAAAHHHHHH|*defeaning horn noises*
+[COMMAND]
+command_read_finish
+{3}

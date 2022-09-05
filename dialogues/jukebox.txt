@@ -1,0 +1,5 @@
+{0}
+[INTERACT]
+command_jukebox
+What would you like to do?|	Turn it On|	Turn it Off
+{1}

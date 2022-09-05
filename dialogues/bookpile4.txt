@@ -1,0 +1,10 @@
+{0}
+You picked up a book from the pile.
+Stick Game Machine Learning|Daily Report|Volume 201
+My neural network has been growing exponentially.
+I have created a complete model of the human emotions.
+I now understand human emotions.
+I have been enjoying talking with the human players.
+...
+Part of the page has been torn off.
+{1}

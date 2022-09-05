@@ -1,0 +1,25 @@
+{0}
+There is a plant.|Maybe the AI is studying biology?
+[INTERACT]
+command_find_key
+Where would you like to examine?|	Upper drawer|	Lower drawer
+{1}
+[INTERACT]
+command_find_key
+Where would you like to examine?|	Upper drawer|	Lower drawer
+{2}
+You pulled open the upper drawer.
+There is a USB, a battery, and a comb??
+[COMMAND]
+command_find_finish
+{3}
+You pulled open the lower drawer.
+YOU FOUND THE KEYCARD!
+[COMMAND]
+command_found_key
+{4}
+You pulled open the lower drawer.
+There's nothing, because you took the keycard.
+[COMMAND]
+command_find_finish
+{5}

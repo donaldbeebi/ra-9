@@ -1,0 +1,4 @@
+{0}
+You carefully lifted up the cover.
+You see a scared rat inside staring at you.
+{1}

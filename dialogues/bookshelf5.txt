@@ -1,0 +1,15 @@
+{0}
+[INTERACT]
+command_read
+Which book would you like to read?|	Programmer's Diary|	A Day in the Life of Natalie Portman
+{1}
+It's 10 days away from the presentation|and I still haven't finished 20% of the game.|Please, someone give me a hug :(
+[COMMAND]
+command_read_finish
+{2}
+Natalie:|I am a mother now.|It has really changed my perspective.
+Interviewer:|Do you find it difficult|juggling kids and a career?
+Natalie:|You can juggle deez nuts.
+[COMMAND]
+command_read_finish
+{3}
