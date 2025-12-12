@@ -1,9 +1,8 @@
 # RA 9
 
-An Undertale-style RPG puzzle game where you play the 21-stick game against an virtual bartender! However, there's more than meets the eye as
-you discover the backstory of the bartender...
+A Undertale-style RPG puzzle game with multiple possible endings where you play the 21-stick game against an virtual bartender! However, there's more than meets the eye as you discover the backstory of the bartender...
 
-This was for my final year project. Written without an use of game engine, with graphic assets drawn and music composed by me.
+This was my final year project implemented with C++ and SFML. I built a custom game engine from scratch with ECS, AABB collision, smart pointers, extendable FSM for AI, dialogue DSL parsing. The pixel art assets are drawn by me and the music tracks are also composed by me!
 
 # Gameplay
 
